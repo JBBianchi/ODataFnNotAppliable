@@ -28,7 +28,8 @@ namespace ODataFnNotAppliable.Controllers
                 Name= new(new Dictionary<string, string>() {
                     { "en", "Shoe" },
                     { "fr", "Chaussure" },
-                })
+                }),
+                Tags = new List<string>() {  "Foo" }
             };
             ProductDto hat = new()
             {
@@ -44,7 +45,8 @@ namespace ODataFnNotAppliable.Controllers
                 Name = new(new Dictionary<string, string>() {
                     { "en", "Scarf" },
                     { "fr", "Écharpe" },
-                })
+                }),
+                Tags = new List<string>()
             };
             this.Products = (new List<ProductDto>() {
                 shoe,

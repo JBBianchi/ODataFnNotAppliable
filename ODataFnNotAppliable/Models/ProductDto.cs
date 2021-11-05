@@ -19,5 +19,10 @@ namespace ODataFnNotAppliable.Models
         /// Gets/Sets the product's localized names
         /// </summary>
         public virtual ODataNamedValueDictionary<string> Name { get; set; }
+
+        /// <summary>
+        /// Gets/Sets the list of tags
+        /// </summary>
+        public virtual List<string> Tags { get; set; }
     }
 }
